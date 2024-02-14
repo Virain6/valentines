@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # valentines
 App created uing create-react-app and it is to ask a question. Inpiation was taken from another github repsository link:https://github.com/dessygil/valentines-day-react
 # Purpose
@@ -86,4 +85,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 3e72dac (Initial)
