@@ -1,12 +1,5 @@
 # valentines
 App created uing create-react-app and it is to ask a question. Inpiation was taken from another github repsository link:https://github.com/dessygil/valentines-day-react
-# Purpose
-
-I pride myself on putting effort into the small things like this that matter. I created a small site that will be able to ask my partner if she will be my valentine!
-
-# What I learned along the way
-
-This website was built using React and has animations such as a runaway button and hearts that fall from the top. It uses the library EmailJs to alert me when my partner clicks Yes.
 
 # How to run
 
