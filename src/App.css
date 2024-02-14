@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Indie+Flower&display=swap');
+body{
+    background: linear-gradient(180deg,black,#900043);
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#container {
+    min-width: 30%;
+    min-height: 50%;
+    backdrop-filter: blur(14px);
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 20px;
+    z-index: 10 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 10px;
+    font-family: "Poppins",sans-serif;
+}
+
+.fa-heart {
+    color: rgb(217, 1, 102);
+    font-size: 25px;
+    position: absolute;
+    animation:  heartMove linear 1;
+    top: -10vh;
+    z-index: 0;
+}
+
+.fa-solid {
+  z-index: 0;
+}
+
+@keyframes heartMove {
+    0%{
+        transform: translateY(-10vh) ;
+    }
+    100%{
+        transform: translateY(110vh) ;
+    }
+}
+
+#evil-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  white-space: nowrap;
+}
+/* CSS */
+button {
+  width: 165px;
+  height: 62px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 1rem;
+  border: none;
+  position: relative;
+  background: #100720;
+  transition: 0.1s;
+}
+
+button:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  filter: blur(15px);
+  z-index: -1;
+  position: absolute;
+  left:0;
+  top:0;
+}
+
+button:active {
+  transform: scale(0.9)rotate(3deg);
+  background-image: radial-gradient(circle
+  farthest-corner at 10% 20%, rgba(255,94,247,1)17.8%,
+  rgba(2,245,255,1)100.2%);
+  transition: 0.5s;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 0 40px;
+  }
+}
+
+.valentine {
+  font-weight: 700;
+  font-size: 4rem;
+  position: absolute;
+  text-shadow: -5px 2px 7px #ced0d3;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 0.02em;
+  text-align: center;
+  color:rgb(217, 1, 102);
+  text-shadow: 2px 2px 0px black;
+}
+ .pre-valentine{
+  color: white;
+  position: absolute;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  top:30%;
+  left: 40%;
+ }
+ .text{
+  color: white;
+  font-size: 2rem;
+ 
+ }
+
+ h1 {
+  font-size: 70px;
+  color: rgb(200,200,210);
+  height: 100px;
+
+ }
+
+span {
+
+   position: relative;
+   top: 40px;
+   animation: move 0.5s ease-in-out infinite alternate;
+   animation-delay: calc(var(--i) * 0.15s);
+  }
+
+@keyframes move {
+
+ 100%{
+
+    top: -30px;
+    text-shadow: 0 3px #f20b97, 
+                 0 6px #f453ad, 
+                 0 9px #ee73c4, 
+                 0 11px #f29ec8, 
+                 0 13px #f9bbe6, 
+                 0 14px cyan, 
+                 0 15px orangered;
+
+}
+
+}
+.login-page {
+  width: 500px;
+  border-radius: 10px; /* Round the edges of the div */
+  padding: 20px; /* Add some padding for better appearance */
+  margin: auto;
+  background: rgba(0,0,0,.7);
+  text-align: center; /* Center the text horizontally */
+  border: 3px solid #E80074;
+  box-shadow: 0 0 50px 0 #E80074;
+}
+.login-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 100vh; /* Set the height of the container to 100% of the viewport height */
+}
